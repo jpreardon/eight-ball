@@ -1,6 +1,6 @@
 # Eight Ball
 
-This is the most basic magic 8 ball ever simulator ever created. Use it to make decisions.
+This is the most basic magic 8 ball simulator ever created. Use it to make decisions.
 
 ## Instructions
 
