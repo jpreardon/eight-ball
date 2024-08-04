@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+        <title>The most basic magic 8 ball ever simulator ever created</title>
+        <link rel="author" href="humans.txt" />
+        <style>
+            body {
+                margin: 0;
+            }
+
+            #container {
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(33, 58, 134);
+            }
+
+            #answer {
+                font-family: Helvetica, sans-serif;
+                font-size: 5vw;
+                font-weight: bold;
+                color: white;
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <p id="answer"></p>
+        </div>
+       
+        <script>
+            // Answers provided by wikipedia https://en.wikipedia.org/wiki/Magic_8_Ball
+            const answers = [
+                "It is certain",
+                "It is decidedly so",
+                "Without a doubt",
+                "Yes definitely",
+                "You may rely on it",
+                "As I see it, yes",
+                "Most likely",
+                "Outlook good",
+                "Yes",
+                "Signs point to yes",
+                "Reply hazy, try again",
+                "Ask again later",
+                "Better not tell you now",
+                "Cannot predict now",
+                "Concentrate and ask again",
+                "Don't count on it",
+                "My reply is no",
+                "My sources say no",
+                "Outlook not so good",
+                "Very doubtful"
+            ];
+    
+            document.getElementById('answer').innerText = answers[Math.floor(Math.random() * 19)];
+    
+        </script>
+    </body>
+</html>

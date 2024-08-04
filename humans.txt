@@ -1,0 +1,18 @@
+/* TEAM */
+
+    Product Manager, Design Lead, Front End Developer: JP Reardon
+    Contact: http://jpreardon.com/contact
+    From: Brooklyn, New York, USA
+
+/* THANKS */
+
+    Inventor: Albert C. Carter
+
+    Answers: https://en.wikipedia.org/wiki/Magic_8_Ball
+
+/* SITE */
+
+    Last update: 2024-08-04
+    Language: English
+	Doctype: HTML5
+    IDE: Visual Studio Code
